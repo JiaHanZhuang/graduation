@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>表单提交页面</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!-- Bootstrap -->
+    <link href="/ad/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/ad/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="/ad/assets/styles.css" rel="stylesheet" media="screen">
+
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/ad/vendors/flot/excanvas.min.js"></script><![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://www.jq22.com/jquery/1.9.1/jquery.min.js"></script>
+
+
+    <script src="/ad/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script crossorigin src="/js/react.production.min.js"></script>
+    <script crossorigin src="/js/react-dom.production.min.js"></script>
+    <script crossorigin src="/js/babel.min.js"></script>
+    <script src="/js/base.js" type="text/babel"></script>
+    <script src="/js/room.js" type="text/babel"></script>
+    <script type="text/babel">
+        ReactDOM.render(
+            <BaseTop/>,
+            document.getElementById("top")
+        )
+        ReactDOM.render(
+            <BaseFluid/>,
+            document.getElementById("fluid")
+        )
+        ReactDOM.render(
+            <AddRoom/>,
+            document.getElementById("addRoom")
+        )
+    </script>
+</head>
+
+<body>
+<div id="top"></div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div id="fluid"></div>
+        <div id="addRoom"></div>
+    </div>
+</div>
+
+<link href="/ad/vendors/datepicker.css" rel="stylesheet" media="screen">
+<link href="/ad/vendors/uniform.default.css" rel="stylesheet" media="screen">
+<link href="/ad/vendors/chosen.min.css" rel="stylesheet" media="screen">
+
+<link href="/ad/vendors/wysiwyg/bootstrap-wysihtml5.css" rel="stylesheet" media="screen">
+
+<script src="/ad/vendors/jquery-1.9.1.js"></script>
+<script src="/ad/bootstrap/js/bootstrap.min.js"></script>
+<script src="/ad/vendors/jquery.uniform.min.js"></script>
+<script src="/ad/vendors/chosen.jquery.min.js"></script>
+<script src="/ad/vendors/bootstrap-datepicker.js"></script>
+
+<script src="/ad/vendors/wysiwyg/wysihtml5-0.3.0.js"></script>
+<script src="/ad/vendors/wysiwyg/bootstrap-wysihtml5.js"></script>
+
+<script src="/ad/vendors/wizard/jquery.bootstrap.wizard.min.js"></script>
+
+
+<script src="/ad/assets/scripts.js"></script>
+
+</body>
+
+</html>

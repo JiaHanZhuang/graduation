@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>登录页面</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!-- Bootstrap -->
+    <link href="/ad/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/ad/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="/ad/assets/styles.css" rel="stylesheet" media="screen">
+     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script crossorigin src="/js/react.production.min.js"></script>
+    <script crossorigin src="/js/react-dom.production.min.js"></script>
+    <script crossorigin src="/js/babel.min.js"></script>
+    <script src="/js/adminlogin.js" type="text/babel"></script>
+    <script type="text/babel">
+        ReactDOM.render(
+            <AdminLogin/>,
+            document.getElementById("adminLogin")
+        )
+    </script>
+  </head>
+  <body id="login">
+    <div id="adminLogin"></div>
+    <script src="/ad/vendors/jquery-1.9.1.min.js"></script>
+    <script src="/ad/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js">    
+    <head>
+        <title>免费简洁响应式Bootstrap后台主题模板BootAdmin</title>
+        <!-- Bootstrap -->
+        <link href="/ad/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="/ad/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+        <link href="/ad/vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
+        <link href="/ad/assets/styles.css" rel="stylesheet" media="screen">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="/ad/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script crossorigin src="/js/react.production.min.js"></script>
+        <script crossorigin src="/js/react-dom.production.min.js"></script>
+        <script crossorigin src="/js/babel.min.js"></script>
+        <script src="/js/base.js" type="text/babel"></script>
+        <script type="text/babel">
+            ReactDOM.render(
+                <BaseTop/>,
+                document.getElementById("top")
+            )
+            ReactDOM.render(
+                <BaseFluid/>,
+                document.getElementById("fluid")
+            )
+        </script>
+    </head>
+    
+    <body>
+
+        <div id="top"></div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div id="fluid"></div>
+                <div class="span10" id="content">
+                    <div class="row-fluid">
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <h4>成功提示</h4>
+                            操作已经成功了！</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/ad/vendors/jquery-1.9.1.min.js"></script>
+        <script src="/ad/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/ad/vendors/easypiechart/jquery.easy-pie-chart.js"></script>
+        <script src="/ad/assets/scripts.js"></script>
+        <script>
+        $(function() {
+            // Easy pie charts
+            $('.chart').easyPieChart({animate: 1000});
+        });
+
+        </script>
+    </body>
+
+</html>
